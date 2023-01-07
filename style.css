@@ -237,5 +237,32 @@
     padding-top: 50px;
 }
 
+.footer-section{
+    background: rgb(21, 21, 21);
+    padding: 80px 12%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
 
+.future-plan-header{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.future-plan-description, .email, .phone{
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.my-social-media{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 /* ----------------- End of footer Section --------------------- */
