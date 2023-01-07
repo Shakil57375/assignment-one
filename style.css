@@ -66,13 +66,39 @@
     gap: 3rem;
 }
 
+.failure-header{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.failure-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(55, 48, 48);
+    margin-bottom: 20px;
+    font-family: 'roboto' , sans-serif;
+}
+
+
 .failure-list{
     display: flex;
     flex-direction: column;
+    gap: 14px;
 }
+
+
 
 .failure-list .col{
     display: flex;
+    gap: 10px;
+}
+
+.failure-list .col p{
+    font-size: 16px;
+    color: rgb(55, 48, 48);
+    font-weight: 400;
+    font-family: 'roboto' , sans-serif;
 }
 
 .failure-list img{
@@ -80,3 +106,46 @@
     width: 20px;
     color: green;
 }
+
+/* ------------- Start of my Plans Section ------------------ */
+
+.my_plans{
+    padding: 10px 15% 100px;
+}
+
+.my-plan-header{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.all_plans{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my_plans .plan{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.plan h1{
+    font-size: 25px;
+    font-family: "roboto" , sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.plan p{
+    font-size: 15px;
+    font-family: "roboto" , sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* ---------------- End of my Plans Section ---------------- */
