@@ -288,12 +288,12 @@
 
 .subscribtion-plan .btn-3{
     padding: 15px 40px;
-    background: #fff;    
-    color: rgb(8, 130, 223);
+    color: #fff;    
+    background: rgb(8, 130, 223);
     border: none;
     outline: none;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 8px;
 }
 /* ----------------- End of footer Section --------------------- */
